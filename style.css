@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body{
+    color: #000;
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+  
+}
+
+header .container{
+    width: 100%;
+    height: 110px;
+    border: 1px solid#000;
+    background: url(../img/money.jpg) no-repeat center center / cover;
+    position: relative;
+}
+
+.logo{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+
+.logo h1{
+    font-size: 60px;
+}
+
+.logo .pipe{
+    width: 2px;
+    background: #000;
+    margin-left: 15px;
+}
+
+.logo p{
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+.home{
+    margin-left: 500px;
+    border: none;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    height: 50px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.home a{
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 35px;
+    transition: all 0.8s;
+    background-color: rgb(68, 55, 55);
+}
+
+.home a:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+#view .container{
+    border: none;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    height: 600px;
+    width: 1000px;
+    margin-left: 285px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 25px;
+    background: url(../img/card.jpg) no-repeat center center / cover;
+    position: relative;
+
+}
+
+#view .container .btn{
+    width: 200px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    padding: 20px;
+    border-radius: 3px;
+    transition: all 0.8s;
+}
+
+#view .container .btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+#view .container h1{
+    position: absolute;
+    top: 0;
+    margin-top: 30px;
+}
+
+.container .footer{
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    text-align: center;
+}
+
+
+
+
+#table .container{
+    border: none;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    height: 600px;
+    width: 1100px;
+    margin-left: 230px;
+    margin-top: 20px;
+    position: relative;
+}
+
+table{
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+th,tr,td{
+    border: 1px solid#000;
+    padding: 9px 44px;
+}
+
+.customers .btn{
+    text-decoration: none;
+}
+
+
+#details .container{
+    border: none;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    height: 500px;
+    width: 800px;
+    margin-top: 50px;
+    margin-left: 80px;
+    padding-left: 20px;
+    padding-top: 10px;
+    position: relative;
+}
+
+#details .transfer {
+    line-height: 3;
+
+}
+
+.transfer label{
+    float: left;
+}
+
+.transfer h3{
+    margin-left: 55px;
+    padding-left: 100px;
+}
+
+.transfer a{
+    text-decoration: none;
+    border: 1px solid #000;
+    color: #000;
+    padding: 10px 20px;
+    transition: all 0.7s;
+}
+
+.transfer a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+
+#transaction .container{
+    height: 600px;
+    width: 900px;
+    border: none;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    margin-top: 20px;
+    margin-left: 350px;
+    position: relative;
+}
+
+#transaction .select{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.select form{
+    margin-top: 20px;
+}
+.select #action1{
+    width: 200px;
+    margin-left: 80px;
+    padding: 15px 80px;
+    margin-top: 30px;
+}
+
+#transaction .primary-btn{
+    margin-top: 50px;
+    margin-left: 80px;
+    padding: 20px 80px;
+    transition: all 0.8s;
+    border-radius: 2px;
+}
+
+#transaction .primary-btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+#transaction .field1{
+    width: 200px;
+    padding: 15px 30px;
+    margin-left: 60px;
+    margin-bottom: 25px;
+    border: 1px solid #000;
+}
+
+#transaction .field2{
+    width: 200px;
+    padding: 15px 30px;
+    margin-left: 5px;
+    margin-bottom: 25px;
+    border: 1px solid #000;
+}
+
+#transaction .field3{
+    width: 200px;
+    padding: 15px 30px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    border: 1px solid #000;
+}
+
+#transaction .field4{
+    width: 200px;
+    padding: 15px 30px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    margin-top: 40px;
+    border: 1px solid #000;
+}
+
+
+#transaction .amount{
+    width: 200px;
+    padding: 15px 30px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    border: 1px solid #000;
+}
+
+#table1 .container{
+    border: none;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    height: 600px;
+    width: 1100px;
+    margin-left: 230px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.back{
+    color: #fff;
+    background-color: rgba(32, 28, 28, 0.89);
+    margin: auto;
+    position: absolute;
+    top: 40px;
+    margin-top: 300px;
+    margin-left: 700px;
+    text-decoration: none;
+    padding: 15px 35px;
+    transition: all 0.8s;
+    border: none;
+    
+}
